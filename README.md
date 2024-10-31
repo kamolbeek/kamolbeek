@@ -17,3 +17,6 @@ I have been using GitHub since 2023, but most of my main work isn't on this plat
 
 Codewars Profile
 - Codewars Rank: [https://www.codewars.com/users/kamalbeek_77]
+
+### YouTube Channel
+Check out my YouTube channel for tips and tutorials: [KAMALBEEK MUSIC ™](https://www.youtube.com/@kamalbeek_77)
