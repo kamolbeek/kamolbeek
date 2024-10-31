@@ -16,7 +16,7 @@ Be sure to check out my Codewars account below to see my coding progress!
 I have been using GitHub since 2023, but most of my main work isn't on this platform, so I haven't focused much on it. However, I continue to use it as a repository for some of my coding projects and learning journey.
 
 Codewars Profile
-- Codewars Rank: [https://www.codewars.com/users/kamalbeek_77]
+- Codewars Rank: [CODEWARS ACOUNT](https://www.codewars.com/users/kamalbeek_77)
 
 ### YouTube Channel
 Check out my YouTube channel for tips and tutorials: [KAMALBEEK MUSIC ™](https://www.youtube.com/@kamalbeek_77)
