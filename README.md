@@ -20,3 +20,5 @@ Codewars Profile
 
 ### YouTube Channel
 Check out my YouTube channel for tips and tutorials: [KAMALBEEK MUSIC ™](https://www.youtube.com/@kamalbeek_77)
+
+![Kamoliddin's Profile Image](images/profile.png)
