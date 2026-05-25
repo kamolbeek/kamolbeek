@@ -92,20 +92,38 @@ Founder and driving force behind **USTAM**, a professional services marketplace 
 
 ---
 
-## 📌 Featured Project — USTAM
+## 📌 Live Projects
 
-<div align="center">
+### 🏗️ [USTAM](https://ustam.uz) — Professional Services Marketplace
+> Uzbekistan's platform connecting verified specialists with clients. AI-powered matching, secure payments, and real-time collaboration.
 
-> **USTAM** is Uzbekistan's professional services platform — think of it as the ultimate marketplace where verified specialists meet those who need them. Built from the ground up with a scalable architecture and AI-powered matching at its core.
-
-</div>
-
-**Key Features Being Built:**
-- 🔍 **AI-Powered Professional Matching** — Smart algorithms connect clients with the right specialists
+- 🔍 **AI-Powered Matching** — Smart algorithms connect clients with the right specialists
 - ✅ **Verified Profiles & Reviews** — Trust-first ecosystem for quality assurance
 - 💬 **Real-Time Communication** — Built-in messaging and project collaboration tools
-- 📱 **Mobile-First Design** — Seamless experience across all devices
 - 🔒 **Secure Payments** — Integrated escrow and payment processing
+- **Status:** 🟢 Active Development · Scaling Fast
+
+---
+
+### 📊 [AuditPro.uz](https://auditpro.uz) — Business Audit Platform
+> A professional-grade platform for conducting and managing business audits in Uzbekistan. Streamlines the entire audit lifecycle from planning to reporting.
+
+- 📋 **Structured Audit Workflows** — End-to-end audit management system
+- 📈 **Real-Time Analytics** — Live dashboards and reporting tools
+- 🏢 **Multi-Company Support** — Manage audits across multiple organizations
+- 🔐 **Role-Based Access** — Granular permissions for auditors and managers
+- **Status:** 🟢 Live · In Production
+
+---
+
+### 🧮 [NasiyaCalculator.uz](https://nasiyacalculator.uz) — Instalment Calculator
+> A smart financial tool tailored for the Uzbek market. Helps businesses and individuals calculate instalment plans, interest rates, and payment schedules with ease.
+
+- 💰 **Flexible Payment Plans** — Custom instalment schedule generation
+- 📅 **Payment Calendar** — Visual timeline of all upcoming payments
+- 📊 **Interest Rate Analysis** — Compare different financing options
+- 📱 **Mobile-Friendly** — Optimized for use on any device
+- **Status:** 🟢 Live · Actively Used
 
 ---
 
@@ -113,19 +131,7 @@ Founder and driving force behind **USTAM**, a professional services marketplace 
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=kamolbeek&theme=tokyonight&no-frame=false&no-bg=false&margin-w=10&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=kamolbeek&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![Kamoliddin's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kamolbeek&theme=tokyo-night&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
