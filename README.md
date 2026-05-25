@@ -127,6 +127,17 @@ Founder and driving force behind **USTAM**, a professional services marketplace 
 
 ---
 
+### 🌐 [PortBio.uz](https://portbio.uz) — Personal Portfolio & Bio Platform
+> A sleek platform for creating stunning personal portfolio pages and bio links. Built for professionals, creators, and entrepreneurs who want to stand out online.
+
+- 🎨 **Beautiful Templates** — Modern, customizable portfolio designs
+- 🔗 **Bio Link Pages** — All your important links in one place
+- 📊 **Analytics Dashboard** — Track profile views and link clicks
+- ⚡ **Instant Publishing** — Go live in minutes, no coding required
+- **Status:** 🟢 Live · Actively Used
+
+---
+
 ## 📈 GitHub Stats
 
 <div align="center">
