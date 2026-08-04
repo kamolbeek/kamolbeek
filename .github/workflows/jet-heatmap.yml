@@ -1,0 +1,53 @@
+name: Jet heatmap
+
+on:
+  schedule:
+    # Daily at 03:17 UTC. The contribution window slides every day, so the
+    # rendered SVG changes even when the commit counts do not.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-jet-heatmap.mjs'
+      - '.github/workflows/jet-heatmap.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jet-heatmap
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Render dist/github-jet.svg
+        env:
+          # GITHUB_TOKEN covers public contributions. Add a GH_PAT secret with
+          # the read:user scope to fold private contributions in as well.
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/generate-jet-heatmap.mjs \
+            --user "${{ github.repository_owner }}" \
+            --out dist/github-jet.svg
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- dist/github-jet.svg; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/github-jet.svg
+          git commit -m 'chore: refresh jet contribution heatmap'
+          git push
