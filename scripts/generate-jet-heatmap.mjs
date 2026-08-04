@@ -310,3 +310,11 @@ const active = [...counts.values()].filter((c) => c > 0).length
 console.log(`jet-heatmap: ${OUT}`)
 console.log(`  source ${SOURCE} · user ${USER} · ${iso(rangeStart)} → ${iso(rangeEnd)}`)
 console.log(`  ${total} contributions across ${active} active days`)
+
+if (SOURCE === 'api' && !process.env.GH_PAT) {
+  console.log('')
+  console.log('  note: GITHUB_TOKEN only sees public contributions, so work in private')
+  console.log('        repositories is missing from this graph. To include it, create a')
+  console.log('        PAT with the read:user and repo scopes, save it as the GH_PAT')
+  console.log('        repository secret, and re-run this workflow.')
+}
