@@ -27,18 +27,6 @@ With expertise spanning modern web technologies, artificial intelligence integra
 
 ---
 
-## 📊 Contribution Heatmap
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/kamolbeek/kamolbeek/main/dist/github-jet.svg" alt="kamolbeek's GitHub contribution heatmap, rendered with the jet colormap" width="100%">
-
-<sub>Rendered daily with the classic <b>jet</b> colormap — cool blues for quiet days, hot reds for the busy ones.</sub>
-
-</div>
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
